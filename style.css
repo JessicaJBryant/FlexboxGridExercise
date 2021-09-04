@@ -79,3 +79,64 @@ section:not(#three) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: 100px;
 }
+/* Bonus 1 */
+#one {
+    flex-direction: column-reverse;
+}
+/* Bonus 2-3 */
+#orange {
+    order: 2;
+}
+#purple {
+    order: 3;
+    align-self: flex-end;
+}
+#brown {
+    order: 1;
+    align-self: flex-start;
+}
+/* Bonus 4 */
+#p-one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#p-two {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#p-three {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#p-four {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#p-five {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+#p-six {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#p-seven {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#p-eight {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
